@@ -12,5 +12,4 @@ This easy to install device is a powerful solution to automate the opening of yo
 
 
 # A ***cross-platform*** app created in Vue.js to control your windows automatically.
-![webappdemo](https://user-images.githubusercontent.com/43624936/167225353-23b32b5c-0418-4ef8-b3c0-2f909995094b.gif)
-
+![webappdemo](https://user-images.githubusercontent.com/43624936/167225937-6cd48a89-99aa-4b8a-b12d-17819a7def06.gif)
