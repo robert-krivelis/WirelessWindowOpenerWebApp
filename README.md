@@ -1,4 +1,4 @@
-### [working website hosted on https://alpha-wave.xyz](https://www.alpha-wave.xyz/)
+### [check out the web-app here](https://www.alpha-wave.xyz/)
 
 # Introducing the alphawave wireless window opener
 This easy to install device is a powerful solution to automate the opening of your windows. Keep reading to find out more about our low-maintenance, highly customizable device.
