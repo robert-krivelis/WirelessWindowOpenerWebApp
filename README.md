@@ -83,18 +83,26 @@ AWS's IoT Core was valuable in providing secure communcation to and from our dev
 ## 4.1 Progressive Web App Design and Implementation
 As planned, I created a ***cross-platform*** app created in Vue.js to control the window opener remotely and allow for smart features like temperature monitoring and scheduling.
 
-The webapp had the following features:
-1. Cross-platform![1PWA_SUPPORT](https://user-images.githubusercontent.com/43624936/169145192-337e5445-f8fa-4503-9878-e015b3506b3f.gif)
-
-2. Secure with google authentication
-3. ![2AUTHENTICATION](https://user-images.githubusercontent.com/43624936/169145196-59acdc8b-d7de-46e5-b3ee-1e51d6d0676e.gif)
+The webapp has the following features:
+1. Cross-platform: the app can be downloaded on Android, iOS, or simply used in a browser on any device.
+<img src="https://user-images.githubusercontent.com/43624936/169145192-337e5445-f8fa-4503-9878-e015b3506b3f.gif" alt="crossplatform" width="400" />
 
 
-![3ADDINGDEVICES](https://user-images.githubusercontent.com/43624936/169145200-94e1a9d5-ba4a-410a-8aaf-5b528079913d.gif)
-![4VISIBILITY](https://user-images.githubusercontent.com/43624936/169145212-ba4c9090-22f0-455e-a157-53cceeaf05eb.PNG)
+2. Secure with google authentication: by using a google account, the user's credentials are stored securely by google. This protects the device from being controlled by unauthorized users.
+<img src="https://user-images.githubusercontent.com/43624936/169145196-59acdc8b-d7de-46e5-b3ee-1e51d6d0676e.gif" alt="authentication" width="400" />
 
 
-![5SCHEDULING](https://user-images.githubusercontent.com/43624936/169145224-87151ac4-17a4-4f53-9204-5c9e350a0583.gif)
+3. Can control multiple devices from a single app: by adding the devices through a unique code, a user can control multiple devices from a single page. They can rename the devices for easier identification of which device they are controlling. 
+<img src="https://user-images.githubusercontent.com/43624936/169145196-59acdc8b-d7de-46e5-b3ee-1e51d6d0676e.gif" alt="adding devices" width="400" />
+
+
+4. Shows realtime data about the devices state and sensors: The device measures temperature and always reports whether it's open or closed, which can be seen in the dashboard.
+<img src="https://user-images.githubusercontent.com/43624936/169145212-ba4c9090-22f0-455e-a157-53cceeaf05eb.PNG" alt="seeing dashboard" width="400" />
+
+
+5. The device can be scheduled to open or close at any time using a time selector.
+<img src="https://user-images.githubusercontent.com/43624936/169145224-87151ac4-17a4-4f53-9204-5c9e350a0583.gif" alt="seeing dashboard" width="400" />
+
 
 ## 4.2 Enclosure Design and Implementation
 The enclosure was designed by me in fusion360. 
@@ -130,6 +138,11 @@ The enclosure had to satisfy the following objectives:
 
 
 ### 5. Conclusions and Lessons Learned
-- creating a useful, full-stack app is a lot of fun
-- working together in a team has its advantages in having other people do stuff you're not as interested in (coordinating meetings, hardware design) and some drawbacks (difficulty of coordinating everyone and sharing workloads evenly)
+
+I found this project to be immensely successful and rewarding. Our team was able to deliver a useful IoT device that integrates with a full-stack application.  
+
+I had a great time working on this project as I learned a lot of valuable skills. From frontend design with modern javascript frameworks to integrating it with AWS and making it all work with the device itself, I was able to use this project to apply what I've learned in software, firmware, and design courses I have taken during my degree. 
+
+
+Working together with others in a team had a lot of advantages in this project -- by having others coordinate meetings and work on hardware design, I was able to focus on the application and the enclosure without worrying about other parts of the project. Working with a team also has difficulties sometimes in  coordinating everyone and communicating often between teammates and our sponsors, especially since this project was done largely online due to COVID restrictions at the university.
 
