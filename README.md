@@ -65,6 +65,8 @@ The website was planned to be done (and ended up being done) serverlessly using 
 
 I created a ***cross-platform*** app created in Vue.js to control the window opener remotely and allow for smart features like temperature monitoring and scheduling.
 
+
+# ------section not completed, check back later-----
 # 4. Completed Design and Implementation
 - add gifs and descriptions of features of website here
 - STL renderings of iterating over the enclosure
