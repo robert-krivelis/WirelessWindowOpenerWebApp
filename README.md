@@ -33,7 +33,7 @@ We were successful in creating the device and the accompanying software, which c
 
 
 # 2. Motivations
-<div float="right"><img align="right" height="300px" src="https://user-images.githubusercontent.com/43624936/168948546-82cd0b3d-038f-4904-bdca-8fae17a0c3e7.png" alt="top-down-view">Our sponsor was looking for an automated solution to open or close windows. 
+<div float="right"><img align="right" height="450px" src="https://user-images.githubusercontent.com/43624936/168948546-82cd0b3d-038f-4904-bdca-8fae17a0c3e7.png" alt="top-down-view">Our sponsor was looking for an automated solution to open or close windows. 
 
 I was thrilled to work on this project as it presented a great opportunity to keep developing my skills in web development, firmware, and 3D design. </div>
 Our capstone solution aimed to satisfy the gap in the market for a device with the following features:
