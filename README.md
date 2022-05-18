@@ -33,7 +33,7 @@ We were successful in creating the device and the accompanying software, which c
 
 
 # 2. Motivations
-<div float="right"><img align="right"src="https://user-images.githubusercontent.com/43624936/168948546-82cd0b3d-038f-4904-bdca-8fae17a0c3e7.png" alt="top-down-view">Our sponsor was looking for an automated solution to open or close windows. 
+<div float="right"><img align="right" height="500px" src="https://user-images.githubusercontent.com/43624936/168948546-82cd0b3d-038f-4904-bdca-8fae17a0c3e7.png" alt="top-down-view">Our sponsor was looking for an automated solution to open or close windows. 
 
 I was thrilled to work on this project as it presented a great opportunity to keep developing my skills in web development, firmware, and 3D design. </div>
 Our capstone solution aimed to satisfy the gap in the market for a device with the following features:
@@ -51,6 +51,21 @@ Our capstone solution aimed to satisfy the gap in the market for a device with t
 </div>
 
 # 3. Design
-A cr
+I made initial design renderings in blender, though they were slightly different from the final physical result:
+
+![blender_render](https://user-images.githubusercontent.com/43624936/168958739-dbc01cac-fe16-48a4-819b-c94326e4a0a0.png)
+
+The website was planned to be done (and ended up being done) serverlessly using AWS:
+
+![aws diagram](https://user-images.githubusercontent.com/43624936/168958817-ac1ef970-dfb8-4477-8359-6a2f934baaed.png)
 
 I created a ***cross-platform*** app created in Vue.js to control the window opener remotely and allow for smart features like temperature monitoring and scheduling.
+
+# 4. Completed Design and Implementation
+- add gifs and descriptions of features of website here
+- STL renderings of iterating over the enclosure
+
+### 5. Conclusions and Lessons Learned
+- creating a useful, full-stack app is a lot of fun
+- working together in a team has its advantages in having other people do stuff you're not as interested in (coordinating meetings, hardware design) and some drawbacks (difficulty of coordinating everyone and sharing workloads evenly)
+
