@@ -25,8 +25,8 @@ We were successful in creating the device and the accompanying software, which c
 <div float="left">
   <img src="https://user-images.githubusercontent.com/43624936/167225937-6cd48a89-99aa-4b8a-b12d-17819a7def06.gif" alt="website" width="400" /> 
   <img src="https://user-images.githubusercontent.com/43624936/168945665-3706a088-9363-4bce-8acc-a6f774934d7c.gif" alt="rotating" width="400" />
-  <img src="https://user-images.githubusercontent.com/43624936/168945542-de3da22f-8070-4cea-bf33-c5f288cf6d68.png" alt="device diagram" width="800" />
-  <img src="https://user-images.githubusercontent.com/43624936/168948340-63611592-0ed3-4174-8c2e-3099f57f3fe3.PNG" alt="device on window" width="800" />
+  <img src="https://user-images.githubusercontent.com/43624936/168945542-de3da22f-8070-4cea-bf33-c5f288cf6d68.png" alt="device diagram" width="600" />
+  <img src="https://user-images.githubusercontent.com/43624936/168948340-63611592-0ed3-4174-8c2e-3099f57f3fe3.PNG" alt="device on window" width="600" />
   <img src="https://user-images.githubusercontent.com/43624936/168945571-82c2e0ee-f556-403f-820c-2335fd5e8801.gif" alt="enclosure" width="400" />
   <img src="https://user-images.githubusercontent.com/43624936/167225569-6abd3468-49f1-46eb-afa6-543c55fc18a9.gif" alt="hovering" width="400" />
 </div>
