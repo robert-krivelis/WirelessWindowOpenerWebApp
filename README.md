@@ -8,6 +8,7 @@
 ### 5. Conclusions and Lessons Learned
 
 
+
 # 1. Overview
 In this post, I'm going to share and reflect on the project I spent several months working on. I'll go over the motivations, stages of design, and results to my final year engineering capstone project: the wireless window opener. 
 
@@ -16,9 +17,9 @@ My responsibilities in the project was the design and development of the softwar
 
 My team was sponsored to create a device that:
 - Opens windows
-- Can be controlled remotely
+- Can be **controlled remotely**
 - Is wireless
-- Is solar powered 
+- Is **solar** powered 
 
 We were successful in creating the device and the accompanying software, which can be seen in the pictures below:
 
@@ -51,6 +52,7 @@ Our capstone solution aimed to satisfy the gap in the market for a device with t
 
 </div>
 
+
 # 3. Design
 I made initial design renderings in blender, though they were slightly different from the final physical result:
 
@@ -59,17 +61,73 @@ I made initial design renderings in blender, though they were slightly different
 
 The website was planned to be done (and ended up being done) serverlessly using AWS:
 
-
 <img src="https://user-images.githubusercontent.com/43624936/168958817-ac1ef970-dfb8-4477-8359-6a2f934baaed.png" alt="aws_diagram" width="400" />
 
 
-I created a ***cross-platform*** app created in Vue.js to control the window opener remotely and allow for smart features like temperature monitoring and scheduling.
+### Tech stack:
+Frontend:
+
+I planned to use **Vue.js** to create a progressive web app which would work across all devices. The styling would be done using **TailwindCSS**. 
 
 
-# ------section not completed, check back later-----
+Backend:
+
+The backend for this project was "serverless" by building it on AWS. This project gave me lots of experience build on AWS's most popular tools such as Lambda, API Gateway, and DynamoDB. To get started, I found the [serverless framework](https://www.serverless.com/) valuable to get up and running quickly.
+
+
+AWS's IoT Core was valuable in providing secure communcation to and from our device's microprocessor, which was an ESP32.  I explored using Cognito as authentication for our App, but decided I would simply authorize using **google's OAuth authentication API** for google accounts.  
+
+
+
 # 4. Completed Design and Implementation
-- add gifs and descriptions of features of website here
-- STL renderings of iterating over the enclosure
+## 4.1 Progressive Web App Design and Implementation
+As planned, I created a ***cross-platform*** app created in Vue.js to control the window opener remotely and allow for smart features like temperature monitoring and scheduling.
+
+The webapp had the following features:
+1. Cross-platform![1PWA_SUPPORT](https://user-images.githubusercontent.com/43624936/169145192-337e5445-f8fa-4503-9878-e015b3506b3f.gif)
+
+2. Secure with google authentication
+3. ![2AUTHENTICATION](https://user-images.githubusercontent.com/43624936/169145196-59acdc8b-d7de-46e5-b3ee-1e51d6d0676e.gif)
+
+
+![3ADDINGDEVICES](https://user-images.githubusercontent.com/43624936/169145200-94e1a9d5-ba4a-410a-8aaf-5b528079913d.gif)
+![4VISIBILITY](https://user-images.githubusercontent.com/43624936/169145212-ba4c9090-22f0-455e-a157-53cceeaf05eb.PNG)
+
+
+![5SCHEDULING](https://user-images.githubusercontent.com/43624936/169145224-87151ac4-17a4-4f53-9204-5c9e350a0583.gif)
+
+## 4.2 Enclosure Design and Implementation
+The enclosure was designed by me in fusion360. 
+
+The enclosure had to satisfy the following objectives:
+
+| Objective      | Solution |
+| ----------- | ----------- |
+| Easy to access internals     | Sliding front cover       |
+| Securely fastened to window   | Screw holes on sides of enclosure        |
+| Needs to hold solar panel   | Solar panel spot angled towards window       |
+| Motor needs to be secured   | Designed with motor attachment spot in place        |
+| Cheap to produce   | 3D Printed        |
+
+
+<p align="left">
+  <img align="left" src="https://user-images.githubusercontent.com/43624936/169139444-ecd221a7-b19b-450e-8fe1-acf8f32b4d34.PNG" alt="enclosure v1" width="300" />
+  <br clear="left"/> 
+  The first version of the enclosure. Designed quickly as a test to test 3D printing capabilities and get a rough idea of what we'd need. <br clear="right"/>
+  
+  <img align="middle" src="https://user-images.githubusercontent.com/43624936/169139455-5d959c3c-b9d7-4e6a-b2f6-ec8c24c277f9.PNG" alt="enclosure v2" width="300" />
+  
+  Version 2. The first version showed me the tolerances I had left for the sliding door were not enough. Fixing that and a few similar issues gave me more experience performing rapid iteration on my design. 
+  <br clear="right"/> 
+  
+  <img align="middle" src="https://user-images.githubusercontent.com/43624936/169139466-13250bf3-3321-4cca-a504-f98c964a77dc.PNG" alt="enclosure v3" width="300" />
+  
+  The final version (version 3). By this point in the project, our team had made final decisions on the parts we were using, allowing me to make precise measurements on the dimensions for the final enclosure. I incorporated feedback from our sponsor in this version to make the screw holes on the sides a longer slot so that it would work on different sized windowsills. Although these changes were the largest from the original version, I was able to finish this version in minimal time due to the knowledge I had gained through making the earlier versions.
+  
+  <br clear="right"/>
+</p>
+
+
 
 ### 5. Conclusions and Lessons Learned
 - creating a useful, full-stack app is a lot of fun
