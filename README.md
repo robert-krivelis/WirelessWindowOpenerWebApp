@@ -45,7 +45,7 @@ Our capstone solution aimed to satisfy the gap in the market for a device with t
 | Attachable only to push-style windows   | Works on crank-style windows        |
 | Has to be wired   | Works wirelessly       |
 | Operated by remote only   | Operated by remote and  app        |
-| Remote operates on one window   | One remote operates many windows        |
+| Remote operates max 1 window   | App operates many windows         |
 
 
 </div>
